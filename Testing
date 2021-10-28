@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Try It Yourself </title>
+</head>
+<body>
+   <img src="images/example-1.jpg" style="max-width: 100%; height: auto;" id="sample" class="1" />
+   <br />
+   <button onclick="changeImage();"> Change Image </button>
+   
+   <script type="text/javascript">
+      function changeImage() {
+         document.getElementById("sample").src = "images/example-image.jpg";
+      }
+   </script>
+</body>
+</html>
